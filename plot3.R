@@ -10,6 +10,9 @@ rm(data_full)
 ## Converting dates
 datetime <- paste(as.Date(data$Date), data$Time)
 data$Datetime <- as.POSIXct(datetime)
+## see plot1.R code changes there needs to coded here for this to work.
+##jay jones noted.
+
 ## Plot 3
 
 with(data, {
