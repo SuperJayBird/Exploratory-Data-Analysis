@@ -10,6 +10,7 @@ rm(data_full)
 ## Converting dates
 datetime <- paste(as.Date(data$Date), data$Time)
 data$Datetime <- as.POSIXct(datetime)
+## see plot1.R for changes made to code tha is needed here, will add later.
 
 ## Plot 2
 plot(data$Global_active_power~data$Datetime, type="l",
