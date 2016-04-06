@@ -10,7 +10,8 @@ rm(data_full)
 ## Converting dates
 datetime <- paste(as.Date(data$Date), data$Time)
 data$Datetime <- as.POSIXct(datetime)
-
+## see changes made in plot1.R, noted by jay jones
+## will add latter, jj
 ## Plot 4
 par(mfrow=c(2,2), mar=c(4,4,2,1), oma=c(0,0,2,0))
 with(data, {
