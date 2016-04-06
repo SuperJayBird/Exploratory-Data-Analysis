@@ -13,9 +13,9 @@ data$Datetime <- as.POSIXct(datetime)
 data$Voltage <- as.numeric(as.character(data$Voltage))
 data$Global_active_power <- as.numeric(as.character(data$Global_active_power))
 data$Global_reactive_power <- as.numeric(as.character(data$Global_reactive_power))
-data$submetering_1 <- as.numeric(as.character(data$submetring_1))
-data$submetering_2 <- as.numeric(as.character(data$submetering_2))
-data$submetering_3 <- as.numeric(as.character(data$submetering_3))
+data$Sub_metering_1 <- as.numeric(as.character(data$Sub_metring_1))
+data$Sub_metering_2 <- as.numeric(as.character(data$Sub_metering_2))
+data$Sub_metering_3 <- as.numeric(as.character(data$Sub_metering_3))
 
 
 ## Plot 1
